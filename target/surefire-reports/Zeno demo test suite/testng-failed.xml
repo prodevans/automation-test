@@ -13,9 +13,7 @@
       <class name="com.pack.home.TestExecution.TestRun">
         <methods>
           <include name="executing"/>
-          <include name="login"/>
           <include name="afterMethod"/>
-          <include name="trylogin"/>
           <include name="logout"/>
         </methods>
       </class> <!-- com.pack.home.TestExecution.TestRun -->

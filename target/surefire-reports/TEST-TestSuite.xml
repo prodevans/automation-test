@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.799" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.528" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\siddu\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5995268962557659597.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\siddu\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2786527049692689015.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\DevelopmentSuite\jdk8\bin;C:\Program Files\IBM\Bluemix\bin;C:\Program Files\nodejs\;C:\Users\siddu\.minishift\cache\oc\v3.5.5.31;c:\DevelopmentSuite\cdk\bin;c:\DevelopmentSuite\cygwin\bin;c:\DevelopmentSuite\kompose;C:\Users\siddu\AppData\Local\Microsoft\WindowsApps;C:\Users\siddu\AppData\Local\GitHubDesktop\bin;C:\Users\siddu\AppData\Roaming\Composer\vendor\bin;C:\Users\siddu\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\siddu\.minishift\cache\oc\v3.5.5.31;c:\DevelopmentSuite\cdk\bin;c:\DevelopmentSuite\cygwin\bin;c:\DevelopmentSuite\kompose;C:\Users\siddu\AppData\Local\Microsoft\WindowsApps;C:\Users\siddu\AppData\Local\GitHubDesktop\bin;C:\Users\siddu\AppData\Roaming\Composer\vendor\bin;C:\Users\siddu\AppData\Roaming\npm;C:\Users\siddu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\apache-maven-3.5.2\bin;;E:\sts-bundle\sts-3.9.0.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,35 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="login" classname="com.pack.home.TestExecution.TestRun" time="6.873">
-    <failure message="expected [&#10;http://52.172.33.72:8080/ServicePortal/success.jsp] but found [http://52.172.33.72:8080/ServicePortal/sucess.jsp]" type="java.lang.AssertionError">java.lang.AssertionError: 
-expected [
-http://52.172.33.72:8080/ServicePortal/success.jsp] but found [http://52.172.33.72:8080/ServicePortal/sucess.jsp]
-	at com.pack.home.TestExecution.TestRun.login(TestRun.java:49)
-</failure>
-    <system-out><![CDATA[Selected browser is Chrome
-document.getElementById('uname').value = 'anand'
-document.getElementById('pass').value = '1234'
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 42134
-Only local connections are allowed.
-Mar 01, 2018 6:01:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Mar 01, 2018 6:01:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="trylogin" classname="com.pack.home.TestExecution.TestRun" time="1.045">
-    <failure message="Element not found" type="java.lang.AssertionError">java.lang.AssertionError: Element not found
-	at com.pack.home.TestExecution.TestRun.trylogin(TestRun.java:37)
-</failure>
-  </testcase>
-  <testcase name="logout" classname="com.pack.home.TestExecution.TestRun" time="1.058">
-    <failure message="Element not found" type="java.lang.AssertionError">java.lang.AssertionError: Element not found
-	at com.pack.home.TestExecution.TestRun.logout(TestRun.java:55)
-</failure>
-  </testcase>
+  <testcase name="login" classname="com.pack.home.TestExecution.TestRun" time="6.417"/>
+  <testcase name="logout" classname="com.pack.home.TestExecution.TestRun" time="1.355"/>
 </testsuite>
