@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Zeno demo test suite]">
+  <parameter name="correctpassword" value="demo"/>
+  <parameter name="incorrectusername" value="wrong"/>
+  <parameter name="correctusername" value="john"/>
+  <parameter name="incorrectpassword" value="credentials"/>
+  <listeners>
+    <listener class-name="com.pack.home.TestExecution.ExtentReporterNG"/>
+  </listeners>
+  <test name="Login tests(failed)">
+    <classes>
+      <class name="com.pack.home.TestExecution.TestRun">
+        <methods>
+          <include name="executing"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="trylogin"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.pack.home.TestExecution.TestRun -->
+    </classes>
+  </test> <!-- Login tests(failed) -->
+</suite> <!-- Failed suite [Zeno demo test suite] -->

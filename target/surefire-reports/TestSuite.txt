@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 17.799 s <<< FAILURE! - in TestSuite
+login(com.pack.home.TestExecution.TestRun)  Time elapsed: 6.873 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [
+http://52.172.33.72:8080/ServicePortal/success.jsp] but found [http://52.172.33.72:8080/ServicePortal/sucess.jsp]
+	at com.pack.home.TestExecution.TestRun.login(TestRun.java:49)
+
+trylogin(com.pack.home.TestExecution.TestRun)  Time elapsed: 1.045 s  <<< FAILURE!
+java.lang.AssertionError: Element not found
+	at com.pack.home.TestExecution.TestRun.trylogin(TestRun.java:37)
+
+logout(com.pack.home.TestExecution.TestRun)  Time elapsed: 1.058 s  <<< FAILURE!
+java.lang.AssertionError: Element not found
+	at com.pack.home.TestExecution.TestRun.logout(TestRun.java:55)
+
